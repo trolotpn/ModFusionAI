@@ -5,6 +5,7 @@ from collections import defaultdict
 import copy
 import pandas as pd
 import math
+import subprocess
 
 # Límites basados en los reportes
 LIMITS = {
@@ -119,6 +120,19 @@ def fusionar_archivos(model, original_file, nuevo_file, output_file, bug_report,
     print("Guardando archivo fusionado...")
     tree_original.write(output_file, encoding="utf-8", xml_declaration=True)
     print(f"Archivo fusionado guardado en: {output_file}")
+
+def subir_a_github():
+    try:
+        print("Subiendo el archivo combinado a GitHub...")
+        subprocess.run(["git", "add", "."], check=True)
+        subprocess.run(["git", "commit", "-m", "Nuevo archivo combinado creado automáticamente"], check=True)
+        subprocess.run(["git", "push", "origin", "main"], check=True)
+        print("Archivo combinado subido con éxito a GitHub.")
+    except subprocess.CalledProcessError as e:
+        print(f"Error al subir a GitHub: {e}")
+
+# Llamar la función después de generar el archivo combinado
+subir_a_github()
 
 if __name__ == "__main__":
     tipo_archivo = input("¿Qué tipo de archivo estás procesando? (catalog/shop_items): ").strip().lower()
