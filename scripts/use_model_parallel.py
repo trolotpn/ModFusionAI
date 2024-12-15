@@ -121,18 +121,20 @@ def fusionar_archivos(model, original_file, nuevo_file, output_file, bug_report,
     tree_original.write(output_file, encoding="utf-8", xml_declaration=True)
     print(f"Archivo fusionado guardado en: {output_file}")
 
-def subir_a_github():
+def subir_a_github(archivo_modificado):
     try:
-        print("Subiendo el archivo combinado a GitHub...")
-        subprocess.run(["git", "add", "."], check=True)
-        subprocess.run(["git", "commit", "-m", "Nuevo archivo combinado creado automáticamente"], check=True)
-        subprocess.run(["git", "push", "origin", "main"], check=True)
-        print("Archivo combinado subido con éxito a GitHub.")
+        print("Verificando cambios en el archivo combinado...")
+        result = subprocess.run(["git", "status", "--porcelain"], capture_output=True, text=True)
+        if archivo_modificado in result.stdout:
+            print("Subiendo el archivo combinado a GitHub...")
+            subprocess.run(["git", "add", archivo_modificado], check=True)
+            subprocess.run(["git", "commit", "-m", "Nuevo archivo combinado creado automáticamente"], check=True)
+            subprocess.run(["git", "push", "origin", "main"], check=True)
+            print("Archivo combinado subido con éxito a GitHub.")
+        else:
+            print("No hay cambios en el archivo. Nada que subir a GitHub.")
     except subprocess.CalledProcessError as e:
         print(f"Error al subir a GitHub: {e}")
-
-# Llamar la función después de generar el archivo combinado
-subir_a_github()
 
 if __name__ == "__main__":
     tipo_archivo = input("¿Qué tipo de archivo estás procesando? (catalog/shop_items): ").strip().lower()
@@ -155,3 +157,6 @@ if __name__ == "__main__":
     print("Cargando el modelo entrenado...")
     model = load_model(model_path)
     fusionar_archivos(model, original_file, nuevo_file, output_file, bug_report, batch_size=1000)
+
+# Llamar la función después de generar el archivo combinado
+subir_a_github(output_file)
