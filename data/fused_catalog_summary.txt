@@ -1,0 +1,213 @@
+Resumen del archivo: ../data/fused_catalog.ymt
+==================================================
+
+--- Bloque 1 ---
+ItemDatabaseParser: 1
+pscversion: 1
+UNK_MEMBER_0xCF0B6AEB: 1
+value: 91
+percent: 81
+time: 10
+timeunits: 3
+itemcategories: 2
+item: 4529
+requirementgroups: 1
+key: 3912
+layouts: 1
+pathset: 1
+cataloglayout: 1
+shopid: 45
+shoptype: 8
+menus: 112
+menutype: 16
+effectsids: 1
+id: 32
+durationcategory: 3
+menudesc: 73
+itempaths: 1
+hidden: 2
+flags: 10
+pages: 261
+items: 524
+linkshopid: 75
+linkmenuid: 193
+layout: 9
+
+--- Bloque 2 ---
+key: 1554
+items: 354
+item: 7360
+linkshopid: 18
+shopid: 70
+menus: 144
+pages: 219
+menudesc: 49
+shoptype: 10
+menutype: 19
+hidden: 1
+flags: 3
+layout: 1
+UNK_MEMBER_0xA14EADD4: 1
+hasslots: 1
+fitsslots: 1
+quantity: 1
+id: 1
+dict: 1
+type: 3
+slotid: 1
+values: 1
+requirementgroups: 123
+requirements: 62
+count: 2
+
+--- Bloque 3 ---
+item: 8628
+requirements: 215
+requirementgroups: 273
+key: 517
+items: 46
+category: 9
+UNK_MEMBER_0x093520C7: 1
+model: 1
+ui: 3
+description: 1
+localization: 1
+values: 1
+textures: 3
+Item: 44
+id: 2
+UNK_MEMBER_0x1715CBB7: 3
+slotid: 9
+shopid: 1
+shoptype: 1
+menus: 1
+pages: 4
+count: 3
+unlocks: 1
+equipped: 1
+ItemDatabaseParser: 1
+pscversion: 1
+UNK_MEMBER_0xCF0B6AEB: 1
+itemcategories: 1
+cataloglayout: 1
+catalog: 2
+itempathsets: 2
+paths: 161
+shopsinventories: 1
+type: 42
+bundles: 1
+intrinsicitems: 1
+awards: 1
+pricemodifiers: 1
+itempricemodifiers: 1
+UNK_MEMBER_0x3A4CA292: 1
+UNK_MEMBER_0x83866ADB: 1
+itemcomponents: 1
+horses: 1
+group: 1
+tags: 1
+acquirecosts: 1
+satchel: 1
+size: 1
+multiplicity: 1
+menudesc: 3
+
+--- Bloque 4 ---
+key: 3144
+item: 4544
+items: 264
+menus: 10
+pages: 66
+acquirecosts: 78
+quantity: 68
+ui: 1128
+textures: 23
+id: 22
+category: 6
+group: 1
+UNK_MEMBER_0x093520C7: 1
+flags: 2
+model: 1
+priorityaccess: 1
+tags: 5
+costtype: 2
+sellprices: 1
+satchel: 3
+size: 2
+description: 9
+localization: 1
+dict: 1
+multiplicity: 1
+effectids: 1
+expiry: 1
+abs: 1
+purge: 1
+Item: 402
+linkmenuid: 189
+menudesc: 20
+menutype: 1
+
+--- Bloque 5 ---
+item: 9923
+category: 14
+multiplicity: 9
+slotid: 12
+type: 1
+key: 38
+ui: 3
+
+--- Bloque 6 ---
+item: 8691
+key: 790
+items: 29
+ui: 395
+multiplicity: 5
+category: 7
+acquirecosts: 29
+quantity: 23
+satchel: 1
+size: 1
+tags: 1
+slotid: 2
+textures: 2
+id: 1
+description: 23
+
+--- Bloque 7 ---
+item: 8129
+key: 1170
+ui: 588
+multiplicity: 17
+tags: 4
+slotid: 16
+UNK_MEMBER_0x093520C7: 6
+category: 8
+description: 9
+acquirecosts: 19
+items: 14
+quantity: 14
+textures: 1
+id: 1
+localization: 2
+values: 2
+
+--- Bloque 8 ---
+item: 4793
+key: 192
+items: 15
+Item: 11
+linkmenuid: 2
+version: 1
+pages: 70
+tags: 2
+ui: 112
+textures: 5
+id: 5
+type: 2
+description: 1
+localization: 1
+menus: 1
+menutype: 1
+menudesc: 1
+
+Total de nodos procesados: 75215
