@@ -1,0 +1,35 @@
+Análisis del archivo: ../data/red_dead_offline_shop_items.ymt
+==================================================
+<MetaPedShopItemList> encontrados: 1
+<shopItemMaleSp> encontrados: 1
+<Item> encontrados: 195877
+<label> encontrados: 55208
+<name> encontrados: 55208
+<templateName> encontrados: 17458
+<shopCategory> encontrados: 17458
+<swatchTexture> encontrados: 17458
+<swatchPalette> encontrados: 17458
+<swatchTint0> encontrados: 17458
+<swatchTint1> encontrados: 17458
+<swatchTint2> encontrados: 17458
+<assets> encontrados: 55208
+<drawable> encontrados: 55817
+<albedo> encontrados: 55817
+<normal> encontrados: 55817
+<material> encontrados: 55817
+<palette> encontrados: 55817
+<tint0> encontrados: 55817
+<tint1> encontrados: 55817
+<tint2> encontrados: 55817
+<probability> encontrados: 55817
+<states> encontrados: 17458
+<onAddTriggers> encontrados: 55208
+<onRemoveTriggers> encontrados: 55208
+<tag> encontrados: 84852
+<fromState> encontrados: 84852
+<toState> encontrados: 84852
+<shopItemMaleMp> encontrados: 1
+<shopItemFemaleSp> encontrados: 1
+<shopItemFemaleMp> encontrados: 1
+<shopItemAnimalSp> encontrados: 1
+<shopItemAnimalMp> encontrados: 1

@@ -1,0 +1,36 @@
+Análisis del archivo: ../data/whyems_shop_items.ymt
+==================================================
+<MetaPedShopItemList> encontrados: 1
+<shopItemMaleSp> encontrados: 1
+<Item> encontrados: 205665
+<label> encontrados: 15495
+<name> encontrados: 15495
+<templateName> encontrados: 5355
+<shopCategory> encontrados: 5472
+<swatchTexture> encontrados: 5472
+<swatchPalette> encontrados: 5472
+<swatchTint0> encontrados: 5472
+<swatchTint1> encontrados: 5472
+<swatchTint2> encontrados: 5472
+<assets> encontrados: 15495
+<drawable> encontrados: 16964
+<albedo> encontrados: 16963
+<normal> encontrados: 16963
+<material> encontrados: 16961
+<palette> encontrados: 16964
+<tint0> encontrados: 16963
+<tint1> encontrados: 16963
+<tint2> encontrados: 16963
+<probability> encontrados: 16963
+<states> encontrados: 5459
+<onAddTriggers> encontrados: 15495
+<onRemoveTriggers> encontrados: 15462
+<tag> encontrados: 190926
+<fromState> encontrados: 190926
+<toState> encontrados: 190926
+<item> encontrados: 17719
+<shopItemMaleMp> encontrados: 1
+<shopItemFemaleSp> encontrados: 1
+<shopItemFemaleMp> encontrados: 1
+<shopItemAnimalSp> encontrados: 1
+<shopItemAnimalMp> encontrados: 1
